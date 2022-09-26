@@ -12,7 +12,7 @@ public class MultiDimensionalArrayDemo {
 		sehirler[1][1]="Konya";
 		sehirler[1][2]="Kayseri";
 		sehirler[2][0]="Diyarbakır";
-		sehirler[2][1]="Şanlıurfa";
+		sehirler[2][1]="Adana";
 		sehirler[2][2]="Gaziantep";
 		
 		for (int i = 0; i <=2 ; i++) {
