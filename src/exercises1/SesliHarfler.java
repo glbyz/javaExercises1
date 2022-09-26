@@ -1,24 +1,28 @@
 package exercises1;
 
+import java.util.Arrays;
+import java.util.Iterator;
 
 public class SesliHarfler {
 
 	public static void main(String[] args) {
-		char harf='A';
+		char harf='ö';
 		
-		switch(harf) {
-			case 'E':
-			case 'e':
-			case 'İ':
-			case 'i':
-			case 'Ö':
-			case 'ö':
-			case 'Ü':
-			case 'ü':
-				System.out.println(harf + " " + "ince seslidir.");
+		char inceHarfler []= {'e','E','i','İ','ö','Ö','ü','Ü'};
+		char kalinHarfler []= {'a','A','ı','I','o','O','u','U'};
+		
+		boolean a=false;
+		for(char ince : inceHarfler) {
+			if(ince==harf) {
+				a=true;
 				break;
-				default:
-					System.out.println(harf + " " + "kalın seslidir.");
+			}
+		}
+		
+		if(a) {
+			System.out.println(harf + " " + "ince seslidir.");
+		}else {
+			System.out.println(harf + " " + "kalın seslidir.");
 		}
 		
 		
