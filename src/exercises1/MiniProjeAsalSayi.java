@@ -14,14 +14,12 @@ public class MiniProjeAsalSayi {
 						j++;
 					}
 				}
-		
-				
 			}
 			if(j<3) {
-				System.out.println(number+" sayısı asaldır.");
+				System.out.println(number+" asaldır.");
 			}
 			else {
-				System.out.println(number+" sayısı asal değildir.");
+				System.out.println(number+" asal değildir.");
 			}
 
 		}
